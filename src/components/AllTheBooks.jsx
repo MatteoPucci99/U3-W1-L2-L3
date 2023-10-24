@@ -16,18 +16,18 @@ return (
 
  <Container>
     <h2>Top 5 Libri Fantasy</h2>
-        <Row className='row-cols-5 mb-4'>
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
 
 
             {fantasy.map((book, index)=>{
             
-                if(index<5){
+                if(index<6){
 
                     return (
                          <Col key={index}>
 
                              <Card className='h-100'>
-                                <Card.Img variant="top" src={book.img} className='img-fluid'/>
+                                <Card.Img variant="top" src={book.img} className='h-75'/>
                                 <Card.Body className='d-flex flex-column justify-content-end'>
                                      <Card.Title>{book.title}</Card.Title>
                                     <Card.Text>
@@ -42,18 +42,18 @@ return (
 
         </Row>
         <h2>Top 5 Libri History</h2>
-        <Row className='row-cols-5 mb-4'>
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
             {history.map((book, index)=>{
             
-                if(index<5){
+                if(index<6){
                 
                     return (
                          <Col key={index}>
                                  
                              <Card className='h-100'>
-                                <Card.Img variant="top" src={book.img} className='img-fluid'/>
+                                <Card.Img variant="top" src={book.img} className='h-75'/>
                                 <Card.Body className='d-flex flex-column justify-content-end'>
                                      <Card.Title>{book.title}</Card.Title>
                                     <Card.Text>
@@ -68,18 +68,18 @@ return (
             
         </Row>
         <h2>Top 5 Libri Horror</h2>
-        <Row className='row-cols-5 mb-4'>
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
             {horror.map((book, index)=>{
             
-                if(index<5){
+                if(index<6){
                 
                     return (
                          <Col key={index}>
                                  
                              <Card className='h-100'>
-                                <Card.Img variant="top" src={book.img} className='img-fluid'/>
+                                <Card.Img variant="top" src={book.img} className='h-75'/>
                                 <Card.Body className='d-flex flex-column justify-content-end'>
                                      <Card.Title>{book.title}</Card.Title>
                                     <Card.Text>
@@ -94,18 +94,18 @@ return (
             
         </Row>
         <h2>Top 5 Libri Romance</h2>
-        <Row className='row-cols-5 mb-4'>
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
             {romance.map((book, index)=>{
             
-                if(index<5){
+                if(index<6){
                 
                     return (
                          <Col key={index}>
                                  
                              <Card className='h-100'>
-                                <Card.Img variant="top" src={book.img} className='img-fluid'/>
+                                <Card.Img variant="top" src={book.img} className='h-75'/>
                                 <Card.Body className='d-flex flex-column justify-content-end'>
                                      <Card.Title>{book.title}</Card.Title>
                                     <Card.Text>
@@ -120,18 +120,18 @@ return (
             
         </Row>
         <h2>Top 5 Libri Scifi</h2>
-        <Row className='row-cols-5 mb-4'>
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
             {scifi.map((book, index)=>{
             
-                if(index<5){
+                if(index<6){
                 
                     return (
                          <Col key={index}>
                                  
                              <Card className='h-100'>
-                                <Card.Img variant="top" src={book.img} className='img-fluid'/>
+                                <Card.Img variant="top" src={book.img} className='h-75'/>
                                 <Card.Body className='d-flex flex-column justify-content-end'>
                                      <Card.Title>{book.title}</Card.Title>
                                     <Card.Text>
