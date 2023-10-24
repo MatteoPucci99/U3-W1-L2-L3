@@ -15,7 +15,7 @@ const AllTheBooks = ()=>{
 return (
 
  <Container>
-    <h2>Top 5 Libri Fantasy</h2>
+    <h2>Top Libri Fantasy</h2>
         <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
 
 
@@ -41,7 +41,7 @@ return (
             })}
 
         </Row>
-        <h2>Top 5 Libri History</h2>
+        <h2>Top Libri History</h2>
         <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
@@ -67,7 +67,7 @@ return (
             })}
             
         </Row>
-        <h2>Top 5 Libri Horror</h2>
+        <h2>Top Libri Horror</h2>
         <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
@@ -93,7 +93,7 @@ return (
             })}
             
         </Row>
-        <h2>Top 5 Libri Romance</h2>
+        <h2>Top Libri Romance</h2>
         <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
@@ -119,7 +119,7 @@ return (
             })}
             
         </Row>
-        <h2>Top 5 Libri Scifi</h2>
+        <h2>Top Libri Scifi</h2>
         <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4'>
             
            
