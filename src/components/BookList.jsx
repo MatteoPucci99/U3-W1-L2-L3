@@ -98,21 +98,23 @@ const BookList =()=>{
     })
 
     return(
-        <Container>
-            <div className="mb-3">
-        <input
-          type="text"
-          placeholder="Cerca per titolo..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
-            <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4 justify-content-center'>
+    <Container>
+        <div className="mb-3">
+            <h2>Cerca i tuoi libri</h2>
+            <input
+              type="text"
+              placeholder="Cerca per titolo..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+        </div>
+
+        <Row className='row-cols-lg-6 row-cols-md-3 row-cols-1 mb-4     justify-content-center'>
             {filteredBooks.map((book,index)=>{
                 return <SingleBook key={book.asin} objBook={book}/>
             })}
-            </Row>
-        </Container>
+        </Row>
+    </Container>
     )
 }
 
